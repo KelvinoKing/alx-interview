@@ -38,12 +38,14 @@ if __name__ == "__main__":
     count = 0
 
     def print_stats() -> None:
+        """Prints the stats of the logs read so far."""
         print("File size: {:d}".format(total_size))
         for key in sorted(status_codes.keys()):
             if status_codes[key]:
                 print("{:s}: {:d}".format(key, status_codes[key]))
 
     def signal_handler(sig, frame) -> None:
+        """Handles the SIGINT signal."""
         print_stats()
 
     signal.signal(signal.SIGINT, signal_handler)
