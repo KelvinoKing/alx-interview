@@ -61,10 +61,10 @@ For the "0x03. Log Parsing" project, you will apply your Python programming skil
 
 - [Mock Technical Interview](#)
 - [Python Input and Output](https://docs.python.org/3/tutorial/inputoutput.html)
-- [Python Signal Handling](#https://docs.python.org/3/library/signal.html)
-- [Python Regular Expressions](#https://docs.python.org/3/library/re.html)
-- [Python Dictionaries](#https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-- [Python Exceptions](#https://docs.python.org/3/tutorial/errors.html)
+- [Python Signal Handling](https://docs.python.org/3/library/signal.html)
+- [Python Regular Expressions](https://docs.python.org/3/library/re.html)
+- [Python Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+- [Python Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
 ## Credits
 
