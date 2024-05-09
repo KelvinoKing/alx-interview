@@ -16,15 +16,15 @@ def island_perimeter(grid):
             # Check if it's land
             if grid[row][col] == 1:
                 # Top
-                if grid[row - 1][col] == 0:
+                if row == 0 or grid[row - 1][col] == 0:
                     perimeter += 1
                 # Left
-                if grid[row][col - 1] == 0:
+                if col == 0 or grid[row][col - 1] == 0:
                     perimeter += 1
                 # Right
-                if grid[row][col + 1] == 0:
+                if col == len(grid[row]) or grid[row][col + 1] == 0:
                     perimeter += 1
                 # Bottom
-                if grid[row + 1][col] == 0:
+                if row == len(grid) - 1 or grid[row + 1][col] == 0:
                     perimeter += 1
     return perimeter
