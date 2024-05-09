@@ -11,6 +11,9 @@ def island_perimeter(grid):
 
     perimeter = 0
 
+    if type(grid) != list:
+        return 0
+
     for row in range(len(grid)):
         for col in range(len(grid[row])):
             # Check if it's land
